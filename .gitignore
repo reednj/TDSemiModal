@@ -1,0 +1,15 @@
+# standard xcode .gitignore
+# from: http://stackoverflow.com/questions/49478/
+
+.DS_Store
+*.swp
+*~.nib
+
+build/
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+*.mode1v3
+*.mode2v3

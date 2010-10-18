@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TDSemiModal' target in the 'TDSemiModal' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
