@@ -15,6 +15,12 @@
     [super viewDidLoad];
 
 	datePicker.date = [NSDate date];
+
+	// we need to set the subview dimensions or it will not always render correctly
+	// http://stackoverflow.com/questions/1088163
+	for (UIView* subview in datePicker.subviews) {
+		subview.frame = datePicker.bounds;
+	}
 }
 
 // Override to allow orientations other than the default portrait orientation.
