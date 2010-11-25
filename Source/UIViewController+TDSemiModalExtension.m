@@ -26,36 +26,33 @@
 
 	CGPoint offScreenCenter = CGPointZero;
 
-	if(orientation == UIInterfaceOrientationPortraitUpsideDown) {
+	if(orientation == UIInterfaceOrientationLandscapeLeft ||
+	   orientation == UIInterfaceOrientationLandscapeRight) {
+		
+		offScreenCenter = CGPointMake(offSize.height / 2.0, offSize.width * 1.2);
+		middleCenter = CGPointMake(middleCenter.y, middleCenter.x);
+		[modalView setBounds:CGRectMake(0, 0, 480, 300)];
+	}
+	else {
 		offScreenCenter = CGPointMake(offSize.width / 2.0, offSize.height * 1.2);
 		[modalView setBounds:CGRectMake(0, 0, 320, 460)];
+		[coverView setFrame:CGRectMake(0, 0, 320, 460)];
 	}
-	else if(orientation == UIInterfaceOrientationLandscapeLeft) {
-		offScreenCenter = CGPointMake(offSize.height / 2.0, offSize.width * 2.0);
-		[modalView setBounds:CGRectMake(0, 0, 480, 320)];
-	}
-	else if(orientation == UIInterfaceOrientationLandscapeRight) {
-		offScreenCenter = CGPointMake(offSize.height / 2.0, offSize.width * 2.0);
-		[modalView setBounds:CGRectMake(0, 0, 480, 320)];
-	} else {
-		offScreenCenter = CGPointMake(offSize.width / 2.0, offSize.height * 1.2);
-		[modalView setBounds:CGRectMake(0, 0, 320, 460)];
-	}
-
-
-	modalView.center = offScreenCenter;
-	coverView.alpha = 0.5;
+	
 	// we start off-screen
-
+	modalView.center = offScreenCenter;
+	 
+	coverView.alpha = 0.0f;
+	
 	[self.view addSubview:coverView];
 	[self.view addSubview:modalView];
-
+	
 	// Show it with a transition effect
 	[UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:0.6];
-
+	
 	modalView.center = middleCenter;
-	//coverView.alpha = 0.5;
+	coverView.alpha = 0.5;
 
 	[UIView commitAnimations];
 
@@ -69,18 +66,23 @@
 
 	CGSize offSize = [UIScreen mainScreen].bounds.size;
 
-
-
 	CGPoint offScreenCenter = CGPointZero;
-	offScreenCenter = CGPointMake(offSize.width / 2.0, offSize.height * 1.5);
-
-
+	
+	UIInterfaceOrientation orientation = [[UIDevice currentDevice] orientation];
+	if(orientation == UIInterfaceOrientationLandscapeLeft || 
+			orientation == UIInterfaceOrientationLandscapeRight) {
+		offScreenCenter = CGPointMake(offSize.height / 2.0, offSize.width * 1.5);		
+	}
+	else {
+		offScreenCenter = CGPointMake(offSize.width / 2.0, offSize.height * 1.5);
+	}
 
 	[UIView beginAnimations:nil context:modalView];
 	[UIView setAnimationDuration:animationDelay];
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(dismissSemiModalViewControllerEnded:finished:context:)];
 	modalView.center = offScreenCenter;
+	coverView.alpha = 0.0f;
 	[UIView commitAnimations];
 
 	[coverView performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:animationDelay];
