@@ -13,8 +13,9 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-	
-	self.coverView.backgroundColor = UIColor.blackColor;
+	//self.coverView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+	self.coverView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	coverView.backgroundColor = UIColor.blackColor;
 
 	self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	self.coverView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
