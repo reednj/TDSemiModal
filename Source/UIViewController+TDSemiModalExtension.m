@@ -32,6 +32,7 @@
 		offScreenCenter = CGPointMake(offSize.height / 2.0, offSize.width * 1.2);
 		middleCenter = CGPointMake(middleCenter.y, middleCenter.x);
 		[modalView setBounds:CGRectMake(0, 0, 480, 300)];
+        [coverView setFrame:CGRectMake(0, 0, 480, 300)];
 	}
 	else {
 		offScreenCenter = CGPointMake(offSize.width / 2.0, offSize.height * 1.2);
