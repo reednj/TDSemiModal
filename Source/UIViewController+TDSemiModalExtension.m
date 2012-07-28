@@ -22,7 +22,7 @@
 	CGPoint middleCenter = self.view.center;
 	CGSize offSize = [UIScreen mainScreen].bounds.size;
 
-	UIInterfaceOrientation orientation = [[UIDevice currentDevice] orientation];
+	UIInterfaceOrientation orientation =  UIApplication.sharedApplication.statusBarOrientation;
 
 	CGPoint offScreenCenter = CGPointZero;
 
