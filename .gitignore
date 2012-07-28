@@ -17,3 +17,5 @@ build/
 *.xcuserstate
 
 *.xcsettings
+
+*.xcbkptlist
