@@ -17,7 +17,12 @@ A semi transparent 'cover' will be automatically put in to stop the user from in
 
 Obviously you can create whatever semi-modal view you want, but a datepicker must be one of the most common usages, so I knocked up a class for that too.
 
-The datepicker view itself is not too hard to use, just create and display as before:
+DatePicker
+----------
+
+This project also contains a datepicker view based off the TDSemiModal class.
+
+The datepicker is quite simple to use - just create and display as before:
 
     #import "TDDatePickerController.h"
     TDDatePickerController* datePickerView = [[TDDatePickerController alloc]
@@ -31,3 +36,4 @@ Then you just need to catch the following actions in your delegate when the date
     -(void)datePickerSetDate:(TDDatePickerController*)viewController;
     -(void)datePickerClearDate:(TDDatePickerController*)viewController;
     -(void)datePickerCancel:(TDDatePickerController*)viewController;
+    
