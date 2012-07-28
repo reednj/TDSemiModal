@@ -31,9 +31,6 @@
 - (void)viewDidUnload {
 }
 
--(void)dealloc {
-    [super dealloc];
-}
 
 #pragma mark -
 #pragma mark User Actions

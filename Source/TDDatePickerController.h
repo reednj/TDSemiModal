@@ -13,8 +13,8 @@
 	id delegate;
 }
 
-@property (nonatomic, retain) IBOutlet id delegate;
-@property (nonatomic, retain) IBOutlet UIDatePicker* datePicker;
+@property (nonatomic, strong) IBOutlet id delegate;
+@property (nonatomic, strong) IBOutlet UIDatePicker* datePicker;
 
 -(IBAction)saveDateEdit:(id)sender;
 -(IBAction)clearDateEdit:(id)sender;

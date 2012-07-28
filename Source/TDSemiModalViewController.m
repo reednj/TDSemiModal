@@ -34,9 +34,5 @@
 	self.coverView = nil;
 }
 
-- (void)dealloc {
-	self.coverView = nil;
-    [super dealloc];
-}
 
 @end

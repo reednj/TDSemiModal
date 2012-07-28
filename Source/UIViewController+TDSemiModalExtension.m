@@ -77,7 +77,7 @@
 		offScreenCenter = CGPointMake(offSize.width / 2.0, offSize.height * 1.5);
 	}
 
-	[UIView beginAnimations:nil context:modalView];
+	[UIView beginAnimations:nil context:(__bridge void *)(modalView)];
 	[UIView setAnimationDuration:animationDelay];
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(dismissSemiModalViewControllerEnded:finished:context:)];
@@ -90,7 +90,7 @@
 }
 
 - (void) dismissSemiModalViewControllerEnded:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
-	UIView* modalView = (UIView*)context;
+	UIView* modalView = (__bridge UIView*)context;
 	[modalView removeFromSuperview];
 
 }

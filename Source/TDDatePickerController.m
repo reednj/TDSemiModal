@@ -67,12 +67,6 @@
 
 }
 
-- (void)dealloc {
-	self.datePicker = nil;
-	self.delegate = nil;
-
-    [super dealloc];
-}
 
 
 @end
