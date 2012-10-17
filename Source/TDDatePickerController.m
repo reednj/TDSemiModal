@@ -23,9 +23,11 @@
 	}
 }
 
-// Override to allow orientations other than the default portrait orientation.
+-(BOOL)shouldAutorotate {
+    return YES;
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
     return YES;
 }
 
