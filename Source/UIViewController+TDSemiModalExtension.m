@@ -14,22 +14,23 @@
 - (void) presentSemiModalViewController:(TDSemiModalViewController*)vc {
 	UIView* modalView = vc.view;
 	UIView* coverView = vc.coverView;
-
-	coverView.frame = self.view.bounds;
+    UIView *rootView = UIApplication.sharedApplication.delegate.window.rootViewController.view;
+    
+	coverView.frame = rootView.bounds;
     coverView.alpha = 0.0f;
     
-    modalView.frame = self.view.bounds;
+    modalView.frame = rootView.bounds;
 	modalView.center = self.offscreenCenter;
 	
-	[self.view addSubview:coverView];
-	[self.view addSubview:modalView];
+	[rootView addSubview:coverView];
+	[rootView addSubview:modalView];
 	
     [UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:0.6];
 	
 	modalView.frame = CGRectMake(0, 0, modalView.frame.size.width, modalView.frame.size.height);
 	coverView.alpha = 0.5;
-
+    
 	[UIView commitAnimations];
 
 }
