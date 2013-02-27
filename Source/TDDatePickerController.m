@@ -62,6 +62,7 @@
 }
 
 - (void)viewDidUnload {
+    [self setToolbar:nil];
     [super viewDidUnload];
 
 	self.datePicker = nil;
