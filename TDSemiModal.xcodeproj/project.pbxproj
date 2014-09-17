@@ -13,6 +13,7 @@
 		CCDC2DBA19C9DBC7008B2164 /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */; };
 		CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */; };
 		CCDC2DBF19C9DF23008B2164 /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */; };
+		CCDC2DC119C9E5A4008B2164 /* TDSemiModalExtenstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DC019C9E5A4008B2164 /* TDSemiModalExtenstionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CCDC2DB519C9DB98008B2164 /* UIViewController+TDSemiModalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TDSemiModalExtension.h"; path = "Source/UIViewController+TDSemiModalExtension.h"; sourceTree = SOURCE_ROOT; };
 		CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalViewControllerTests.m; sourceTree = "<group>"; };
 		CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDatePickerControllerTests.m; sourceTree = "<group>"; };
+		CCDC2DC019C9E5A4008B2164 /* TDSemiModalExtenstionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalExtenstionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +110,10 @@
 		CCDC2DA319C9DB57008B2164 /* TDSemiModalTests */ = {
 			isa = PBXGroup;
 			children = (
-				CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */,
 				CCDC2DA419C9DB57008B2164 /* Supporting Files */,
+				CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */,
 				CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */,
+				CCDC2DC019C9E5A4008B2164 /* TDSemiModalExtenstionTests.m */,
 			);
 			path = TDSemiModalTests;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				CCDC2DBA19C9DBC7008B2164 /* TDSemiModalViewControllerTests.m in Sources */,
 				CCDC2DBF19C9DF23008B2164 /* TDDatePickerControllerTests.m in Sources */,
+				CCDC2DC119C9E5A4008B2164 /* TDSemiModalExtenstionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +346,13 @@
 				);
 				INFOPLIST_FILE = TDSemiModalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +366,13 @@
 				);
 				INFOPLIST_FILE = TDSemiModalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

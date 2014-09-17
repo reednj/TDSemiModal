@@ -15,8 +15,9 @@
     [self presentSemiModalViewController:vc inView:UIApplication.sharedApplication.delegate.window.rootViewController.view];
 }
 
-- (void) presentSemiModalViewController:(TDSemiModalViewController*)vc inView:(UIView *)rootView {
-
+- (void) presentSemiModalViewController:(TDSemiModalViewController*)vc
+                                 inView:(UIView *)rootView
+{
 	UIView* modalView = vc.view;
 	UIView* coverView = vc.coverView;
     
