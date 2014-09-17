@@ -12,6 +12,7 @@
 		CCDC2DB819C9DB98008B2164 /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DB419C9DB98008B2164 /* TDSemiModalViewController.m */; };
 		CCDC2DBA19C9DBC7008B2164 /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */; };
 		CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */; };
+		CCDC2DBF19C9DF23008B2164 /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CCDC2DB419C9DB98008B2164 /* TDSemiModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalViewController.m; path = Source/TDSemiModalViewController.m; sourceTree = SOURCE_ROOT; };
 		CCDC2DB519C9DB98008B2164 /* UIViewController+TDSemiModalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TDSemiModalExtension.h"; path = "Source/UIViewController+TDSemiModalExtension.h"; sourceTree = SOURCE_ROOT; };
 		CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalViewControllerTests.m; sourceTree = "<group>"; };
+		CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDatePickerControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */,
 				CCDC2DA419C9DB57008B2164 /* Supporting Files */,
+				CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */,
 			);
 			path = TDSemiModalTests;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCDC2DBA19C9DBC7008B2164 /* TDSemiModalViewControllerTests.m in Sources */,
+				CCDC2DBF19C9DF23008B2164 /* TDDatePickerControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
