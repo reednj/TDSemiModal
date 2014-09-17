@@ -8,12 +8,13 @@
 #import <UIKit/UIKit.h>
 #import	"TDSemiModal.h"
 
+@protocol TDDatePickerControllerDelegate;
 
 @interface TDDatePickerController : TDSemiModalViewController {
-	id delegate;
+	id<TDDatePickerControllerDelegate> delegate;
 }
 
-@property (nonatomic, strong) IBOutlet id delegate;
+@property (nonatomic, strong) IBOutlet id<TDDatePickerControllerDelegate> delegate;
 @property (nonatomic, strong) IBOutlet UIDatePicker* datePicker;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
 
@@ -23,9 +24,11 @@
 
 @end
 
-@interface NSObject (TDDatePickerControllerDelegate)
--(void)datePickerSetDate:(TDDatePickerController*)viewController;
--(void)datePickerClearDate:(TDDatePickerController*)viewController;
--(void)datePickerCancel:(TDDatePickerController*)viewController;
+@protocol TDDatePickerControllerDelegate <NSObject>
+
+- (void)datePickerSetDate:(TDDatePickerController*)viewController;
+- (void)datePickerClearDate:(TDDatePickerController*)viewController;
+- (void)datePickerCancel:(TDDatePickerController*)viewController;
+
 @end
 
