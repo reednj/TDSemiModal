@@ -18,7 +18,6 @@
 		CCB75EAB19CAD4DE0017FB6C /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */; };
 		CCB75EAD19CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */; };
 		CCB75EAE19CAE7CA0017FB6C /* TDDatePickerController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCB75E9B19CAD49F0017FB6C /* TDDatePickerController.xib */; };
-		CCB75EBC19CAF0A20017FB6C /* TDSemiModal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CCB75EBB19CAF0A20017FB6C /* TDSemiModal.podspec */; };
 		CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 		CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDatePickerControllerTests.m; path = Tests/TDDatePickerControllerTests.m; sourceTree = SOURCE_ROOT; };
 		CCB75EA819CAD4DE0017FB6C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 		CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalViewControllerTests.m; path = Tests/TDSemiModalViewControllerTests.m; sourceTree = SOURCE_ROOT; };
-		CCB75EBB19CAF0A20017FB6C /* TDSemiModal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TDSemiModal.podspec; sourceTree = "<group>"; };
 		CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTDSemiModal.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDC2DA219C9DB57008B2164 /* TDSemiModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDSemiModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +83,6 @@
 		CCDC2D8E19C9DB57008B2164 = {
 			isa = PBXGroup;
 			children = (
-				CCB75EBB19CAF0A20017FB6C /* TDSemiModal.podspec */,
 				CCDC2D9919C9DB57008B2164 /* Classes */,
 				CCDC2DA319C9DB57008B2164 /* Tests */,
 				CCDC2D9819C9DB57008B2164 /* Products */,
@@ -230,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB75EBC19CAF0A20017FB6C /* TDSemiModal.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
