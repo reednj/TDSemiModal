@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				CCB75E9719CAD49F0017FB6C /* TDSemiModal.h */,
-				CCB75E9819CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m */,
 				CCB75E9919CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.h */,
+				CCB75E9819CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m */,
 				CCB75E9A19CAD49F0017FB6C /* TDDatePickerController.h */,
+				CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */,
 				CCB75E9B19CAD49F0017FB6C /* TDDatePickerController.xib */,
 				CCB75E9C19CAD49F0017FB6C /* TDSemiModalViewController.h */,
-				CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */,
 				CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */,
 			);
 			name = Classes;
