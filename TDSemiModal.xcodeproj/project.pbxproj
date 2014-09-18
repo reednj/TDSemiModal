@@ -14,10 +14,11 @@
 		CCB75EA319CAD49F0017FB6C /* TDSemiModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB75E9C19CAD49F0017FB6C /* TDSemiModalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCB75EA419CAD49F0017FB6C /* TDDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */; };
 		CCB75EA519CAD49F0017FB6C /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */; };
-		CCDC2DBA19C9DBC7008B2164 /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */; };
+		CCB75EAA19CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */; };
+		CCB75EAB19CAD4DE0017FB6C /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */; };
+		CCB75EAC19CAD4DE0017FB6C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB75EA819CAD4DE0017FB6C /* Info.plist */; };
+		CCB75EAD19CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */; };
 		CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */; };
-		CCDC2DBF19C9DF23008B2164 /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */; };
-		CCDC2DC119C9E5A4008B2164 /* TDSemiModalExtenstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DC019C9E5A4008B2164 /* TDSemiModalExtenstionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +52,12 @@
 		CCB75E9C19CAD49F0017FB6C /* TDSemiModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDSemiModalViewController.h; path = Classes/TDSemiModalViewController.h; sourceTree = SOURCE_ROOT; };
 		CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDatePickerController.m; path = Classes/TDDatePickerController.m; sourceTree = SOURCE_ROOT; };
 		CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalViewController.m; path = Classes/TDSemiModalViewController.m; sourceTree = SOURCE_ROOT; };
+		CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalExtenstionTests.m; path = Tests/TDSemiModalExtenstionTests.m; sourceTree = SOURCE_ROOT; };
+		CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDatePickerControllerTests.m; path = Tests/TDDatePickerControllerTests.m; sourceTree = SOURCE_ROOT; };
+		CCB75EA819CAD4DE0017FB6C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalViewControllerTests.m; path = Tests/TDSemiModalViewControllerTests.m; sourceTree = SOURCE_ROOT; };
 		CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTDSemiModal.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDC2DA219C9DB57008B2164 /* TDSemiModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDSemiModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCDC2DA519C9DB57008B2164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalViewControllerTests.m; sourceTree = "<group>"; };
-		CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDatePickerControllerTests.m; sourceTree = "<group>"; };
-		CCDC2DC019C9E5A4008B2164 /* TDSemiModalExtenstionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSemiModalExtenstionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +82,8 @@
 		CCDC2D8E19C9DB57008B2164 = {
 			isa = PBXGroup;
 			children = (
-				CCDC2D9919C9DB57008B2164 /* TDSemiModal */,
-				CCDC2DA319C9DB57008B2164 /* TDSemiModalTests */,
+				CCDC2D9919C9DB57008B2164 /* Classes */,
+				CCDC2DA319C9DB57008B2164 /* Tests */,
 				CCDC2D9819C9DB57008B2164 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +97,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCDC2D9919C9DB57008B2164 /* TDSemiModal */ = {
+		CCDC2D9919C9DB57008B2164 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				CCB75E9719CAD49F0017FB6C /* TDSemiModal.h */,
@@ -108,24 +109,26 @@
 				CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */,
 				CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */,
 			);
+			name = Classes;
 			path = TDSemiModal;
 			sourceTree = "<group>";
 		};
-		CCDC2DA319C9DB57008B2164 /* TDSemiModalTests */ = {
+		CCDC2DA319C9DB57008B2164 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */,
+				CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */,
+				CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */,
 				CCDC2DA419C9DB57008B2164 /* Supporting Files */,
-				CCDC2DB919C9DBC7008B2164 /* TDSemiModalViewControllerTests.m */,
-				CCDC2DBE19C9DF23008B2164 /* TDDatePickerControllerTests.m */,
-				CCDC2DC019C9E5A4008B2164 /* TDSemiModalExtenstionTests.m */,
 			);
+			name = Tests;
 			path = TDSemiModalTests;
 			sourceTree = "<group>";
 		};
 		CCDC2DA419C9DB57008B2164 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCDC2DA519C9DB57008B2164 /* Info.plist */,
+				CCB75EA819CAD4DE0017FB6C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB75EAC19CAD4DE0017FB6C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,9 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDC2DBA19C9DBC7008B2164 /* TDSemiModalViewControllerTests.m in Sources */,
-				CCDC2DBF19C9DF23008B2164 /* TDDatePickerControllerTests.m in Sources */,
-				CCDC2DC119C9E5A4008B2164 /* TDSemiModalExtenstionTests.m in Sources */,
+				CCB75EAB19CAD4DE0017FB6C /* TDDatePickerControllerTests.m in Sources */,
+				CCB75EAA19CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m in Sources */,
+				CCB75EAD19CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +367,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TDSemiModalTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -383,7 +387,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TDSemiModalTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
