@@ -16,7 +16,6 @@
 		CCB75EA519CAD49F0017FB6C /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */; };
 		CCB75EAA19CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */; };
 		CCB75EAB19CAD4DE0017FB6C /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */; };
-		CCB75EAC19CAD4DE0017FB6C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB75EA819CAD4DE0017FB6C /* Info.plist */; };
 		CCB75EAD19CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */; };
 		CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */; };
 /* End PBXBuildFile section */
@@ -226,7 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB75EAC19CAD4DE0017FB6C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -331,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -368,6 +366,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -388,6 +387,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
