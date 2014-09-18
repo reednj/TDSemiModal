@@ -7,19 +7,18 @@
 
 #import "TDDatePickerController.h"
 
-
 @implementation TDDatePickerController
-@synthesize datePicker, delegate;
 
--(void)viewDidLoad {
+-(void)viewDidLoad
+{
     [super viewDidLoad];
 
-	datePicker.date = [NSDate date];
+	self.datePicker.date = [NSDate date];
 
 	// we need to set the subview dimensions or it will not always render correctly
 	// http://stackoverflow.com/questions/1088163
-	for (UIView* subview in datePicker.subviews) {
-		subview.frame = datePicker.bounds;
+	for (UIView* subview in self.datePicker.subviews) {
+		subview.frame = self.datePicker.bounds;
 	}
 }
 
@@ -63,11 +62,8 @@
 #pragma mark -
 #pragma mark Memory Management
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-- (void)viewDidUnload {
+- (void)viewDidUnload
+{
     [self setToolbar:nil];
     [super viewDidUnload];
 
@@ -75,8 +71,6 @@
 	self.delegate = nil;
 
 }
-
-
 
 @end
 

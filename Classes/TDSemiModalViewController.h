@@ -10,6 +10,6 @@
 
 @interface TDSemiModalViewController : UIViewController
 
-@property (nonatomic, strong) UIView *coverView;
+@property UIView *coverView;
 
 @end

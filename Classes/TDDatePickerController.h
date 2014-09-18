@@ -10,13 +10,11 @@
 
 @protocol TDDatePickerControllerDelegate;
 
-@interface TDDatePickerController : TDSemiModalViewController {
-	__weak id<TDDatePickerControllerDelegate> delegate;
-}
+@interface TDDatePickerController : TDSemiModalViewController
 
-@property (nonatomic, weak) IBOutlet id<TDDatePickerControllerDelegate> delegate;
-@property (nonatomic, strong) IBOutlet UIDatePicker* datePicker;
-@property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
+@property (weak) id<TDDatePickerControllerDelegate> delegate;
+@property (weak) IBOutlet UIDatePicker* datePicker;
+@property (weak) IBOutlet UIToolbar *toolbar;
 
 -(IBAction)saveDateEdit:(id)sender;
 -(IBAction)clearDateEdit:(id)sender;
