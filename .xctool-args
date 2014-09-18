@@ -1,0 +1,5 @@
+[
+  "-project", "TDSemiModal.xcodeproj",
+  "-scheme", "TDSemiModal",
+  "-sdk", "iphonesimulator",
+]

@@ -2,5 +2,5 @@
 
 set -e
 
-xcodebuild -scheme TDSemiModalTests -sdk iphonesimulator test
+xctool test ONLY_ACTIVE_ARCHIVE=NO
 

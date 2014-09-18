@@ -2,3 +2,6 @@
 
 set -e
 
+brew update
+brew upgrade -v --HEAD xctool
+
