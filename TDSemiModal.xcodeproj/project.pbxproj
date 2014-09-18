@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCB75E9319CAD32F0017FB6C /* TDSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDC2DB219C9DB98008B2164 /* TDSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75E9419CAD3460017FB6C /* TDSemiModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDC2DB319C9DB98008B2164 /* TDSemiModalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75E9519CAD3490017FB6C /* UIViewController+TDSemiModalExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDC2DB519C9DB98008B2164 /* UIViewController+TDSemiModalExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75E9619CAD34D0017FB6C /* TDDatePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDC2DAF19C9DB98008B2164 /* TDDatePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCDC2DB619C9DB98008B2164 /* UIViewController+TDSemiModalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DAE19C9DB98008B2164 /* UIViewController+TDSemiModalExtension.m */; };
 		CCDC2DB719C9DB98008B2164 /* TDDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DB019C9DB98008B2164 /* TDDatePickerController.m */; };
 		CCDC2DB819C9DB98008B2164 /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDC2DB419C9DB98008B2164 /* TDSemiModalViewController.m */; };
@@ -128,11 +132,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CCB75E9219CAD31F0017FB6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB75E9319CAD32F0017FB6C /* TDSemiModal.h in Headers */,
+				CCB75E9419CAD3460017FB6C /* TDSemiModalViewController.h in Headers */,
+				CCB75E9519CAD3490017FB6C /* UIViewController+TDSemiModalExtension.h in Headers */,
+				CCB75E9619CAD34D0017FB6C /* TDDatePickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		CCDC2D9619C9DB57008B2164 /* TDSemiModal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCDC2DA819C9DB57008B2164 /* Build configuration list for PBXNativeTarget "TDSemiModal" */;
 			buildPhases = (
+				CCB75E9219CAD31F0017FB6C /* Headers */,
 				CCDC2D9319C9DB57008B2164 /* Sources */,
 				CCDC2D9419C9DB57008B2164 /* Frameworks */,
 				CCDC2D9519C9DB57008B2164 /* CopyFiles */,
