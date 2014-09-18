@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB75E9F19CAD49F0017FB6C /* TDSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB75E9719CAD49F0017FB6C /* TDSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75EA019CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75E9819CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m */; };
+		CCB75EA119CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB75E9919CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75EA219CAD49F0017FB6C /* TDDatePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB75E9A19CAD49F0017FB6C /* TDDatePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75EA319CAD49F0017FB6C /* TDSemiModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB75E9C19CAD49F0017FB6C /* TDSemiModalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB75EA419CAD49F0017FB6C /* TDDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */; };
+		CCB75EA519CAD49F0017FB6C /* TDSemiModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */; };
+		CCB75EAA19CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */; };
+		CCB75EAB19CAD4DE0017FB6C /* TDDatePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */; };
+		CCB75EAD19CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */; };
+		CCB75EAE19CAE7CA0017FB6C /* TDDatePickerController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCB75E9B19CAD49F0017FB6C /* TDDatePickerController.xib */; };
+		CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDC2DBC19C9DC3A008B2164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDC2D8F19C9DB57008B2164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDC2D9619C9DB57008B2164;
+			remoteInfo = TDSemiModal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCDC2D9519C9DB57008B2164 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 7;
+			files = (
+				CCB75EAE19CAE7CA0017FB6C /* TDDatePickerController.xib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCB75E9719CAD49F0017FB6C /* TDSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDSemiModal.h; path = Classes/TDSemiModal.h; sourceTree = SOURCE_ROOT; };
+		CCB75E9819CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TDSemiModalExtension.m"; path = "Classes/UIViewController+TDSemiModalExtension.m"; sourceTree = SOURCE_ROOT; };
+		CCB75E9919CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TDSemiModalExtension.h"; path = "Classes/UIViewController+TDSemiModalExtension.h"; sourceTree = SOURCE_ROOT; };
+		CCB75E9A19CAD49F0017FB6C /* TDDatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDDatePickerController.h; path = Classes/TDDatePickerController.h; sourceTree = SOURCE_ROOT; };
+		CCB75E9B19CAD49F0017FB6C /* TDDatePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TDDatePickerController.xib; path = Classes/TDDatePickerController.xib; sourceTree = SOURCE_ROOT; };
+		CCB75E9C19CAD49F0017FB6C /* TDSemiModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDSemiModalViewController.h; path = Classes/TDSemiModalViewController.h; sourceTree = SOURCE_ROOT; };
+		CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDatePickerController.m; path = Classes/TDDatePickerController.m; sourceTree = SOURCE_ROOT; };
+		CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalViewController.m; path = Classes/TDSemiModalViewController.m; sourceTree = SOURCE_ROOT; };
+		CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalExtenstionTests.m; path = Tests/TDSemiModalExtenstionTests.m; sourceTree = SOURCE_ROOT; };
+		CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDDatePickerControllerTests.m; path = Tests/TDDatePickerControllerTests.m; sourceTree = SOURCE_ROOT; };
+		CCB75EA819CAD4DE0017FB6C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSemiModalViewControllerTests.m; path = Tests/TDSemiModalViewControllerTests.m; sourceTree = SOURCE_ROOT; };
+		CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTDSemiModal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDC2DA219C9DB57008B2164 /* TDSemiModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDSemiModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDC2D9419C9DB57008B2164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC2D9F19C9DB57008B2164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDC2DBB19C9DC35008B2164 /* libTDSemiModal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDC2D8E19C9DB57008B2164 = {
+			isa = PBXGroup;
+			children = (
+				CCDC2D9919C9DB57008B2164 /* Classes */,
+				CCDC2DA319C9DB57008B2164 /* Tests */,
+				CCDC2D9819C9DB57008B2164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDC2D9819C9DB57008B2164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */,
+				CCDC2DA219C9DB57008B2164 /* TDSemiModalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDC2D9919C9DB57008B2164 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCB75E9719CAD49F0017FB6C /* TDSemiModal.h */,
+				CCB75E9919CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.h */,
+				CCB75E9819CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m */,
+				CCB75E9A19CAD49F0017FB6C /* TDDatePickerController.h */,
+				CCB75E9D19CAD49F0017FB6C /* TDDatePickerController.m */,
+				CCB75E9B19CAD49F0017FB6C /* TDDatePickerController.xib */,
+				CCB75E9C19CAD49F0017FB6C /* TDSemiModalViewController.h */,
+				CCB75E9E19CAD49F0017FB6C /* TDSemiModalViewController.m */,
+			);
+			name = Classes;
+			path = TDSemiModal;
+			sourceTree = "<group>";
+		};
+		CCDC2DA319C9DB57008B2164 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB75EA619CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m */,
+				CCB75EA719CAD4DE0017FB6C /* TDDatePickerControllerTests.m */,
+				CCB75EA919CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m */,
+				CCDC2DA419C9DB57008B2164 /* Supporting Files */,
+			);
+			name = Tests;
+			path = TDSemiModalTests;
+			sourceTree = "<group>";
+		};
+		CCDC2DA419C9DB57008B2164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB75EA819CAD4DE0017FB6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CCB75E9219CAD31F0017FB6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB75E9F19CAD49F0017FB6C /* TDSemiModal.h in Headers */,
+				CCB75EA219CAD49F0017FB6C /* TDDatePickerController.h in Headers */,
+				CCB75EA319CAD49F0017FB6C /* TDSemiModalViewController.h in Headers */,
+				CCB75EA119CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CCDC2D9619C9DB57008B2164 /* TDSemiModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDC2DA819C9DB57008B2164 /* Build configuration list for PBXNativeTarget "TDSemiModal" */;
+			buildPhases = (
+				CCB75E9219CAD31F0017FB6C /* Headers */,
+				CCDC2D9319C9DB57008B2164 /* Sources */,
+				CCDC2D9419C9DB57008B2164 /* Frameworks */,
+				CCDC2D9519C9DB57008B2164 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDSemiModal;
+			productName = TDSemiModal;
+			productReference = CCDC2D9719C9DB57008B2164 /* libTDSemiModal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCDC2DA119C9DB57008B2164 /* TDSemiModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDC2DAB19C9DB57008B2164 /* Build configuration list for PBXNativeTarget "TDSemiModalTests" */;
+			buildPhases = (
+				CCDC2D9E19C9DB57008B2164 /* Sources */,
+				CCDC2D9F19C9DB57008B2164 /* Frameworks */,
+				CCDC2DA019C9DB57008B2164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDC2DBD19C9DC3A008B2164 /* PBXTargetDependency */,
+			);
+			name = TDSemiModalTests;
+			productName = TDSemiModalTests;
+			productReference = CCDC2DA219C9DB57008B2164 /* TDSemiModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDC2D8F19C9DB57008B2164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Bitmonlab;
+				TargetAttributes = {
+					CCDC2D9619C9DB57008B2164 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CCDC2DA119C9DB57008B2164 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = CCDC2D9219C9DB57008B2164 /* Build configuration list for PBXProject "TDSemiModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCDC2D8E19C9DB57008B2164;
+			productRefGroup = CCDC2D9819C9DB57008B2164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDC2D9619C9DB57008B2164 /* TDSemiModal */,
+				CCDC2DA119C9DB57008B2164 /* TDSemiModalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDC2DA019C9DB57008B2164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDC2D9319C9DB57008B2164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB75EA519CAD49F0017FB6C /* TDSemiModalViewController.m in Sources */,
+				CCB75EA419CAD49F0017FB6C /* TDDatePickerController.m in Sources */,
+				CCB75EA019CAD49F0017FB6C /* UIViewController+TDSemiModalExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDC2D9E19C9DB57008B2164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB75EAB19CAD4DE0017FB6C /* TDDatePickerControllerTests.m in Sources */,
+				CCB75EAA19CAD4DE0017FB6C /* TDSemiModalExtenstionTests.m in Sources */,
+				CCB75EAD19CAD4DE0017FB6C /* TDSemiModalViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDC2DBD19C9DC3A008B2164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDC2D9619C9DB57008B2164 /* TDSemiModal */;
+			targetProxy = CCDC2DBC19C9DC3A008B2164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCDC2DA619C9DB57008B2164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCDC2DA719C9DB57008B2164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDC2DA919C9DB57008B2164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CCDC2DAA19C9DB57008B2164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CCDC2DAC19C9DB57008B2164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCDC2DAD19C9DB57008B2164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDC2D9219C9DB57008B2164 /* Build configuration list for PBXProject "TDSemiModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC2DA619C9DB57008B2164 /* Debug */,
+				CCDC2DA719C9DB57008B2164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDC2DA819C9DB57008B2164 /* Build configuration list for PBXNativeTarget "TDSemiModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC2DA919C9DB57008B2164 /* Debug */,
+				CCDC2DAA19C9DB57008B2164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDC2DAB19C9DB57008B2164 /* Build configuration list for PBXNativeTarget "TDSemiModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDC2DAC19C9DB57008B2164 /* Debug */,
+				CCDC2DAD19C9DB57008B2164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDC2D8F19C9DB57008B2164 /* Project object */;
+}

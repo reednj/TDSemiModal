@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+
+xctool test ONLY_ACTIVE_ARCHIVE=NO
+

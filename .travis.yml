@@ -1,0 +1,8 @@
+language: objective-c
+
+before_install:
+  - sh script/bootstrap
+
+script:
+  - sh script/test
+
