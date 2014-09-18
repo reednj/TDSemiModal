@@ -79,18 +79,10 @@
     XCTAssertTrue(self.controller.shouldAutorotate);
 }
 
-- (void)testShouldAutorotateToInterfaceOrientation
+- (void)testSupportedInterfaceOrientantions
 {
-    XCTAssertTrue([self.controller shouldAutorotateToInterfaceOrientation:
-                   UIInterfaceOrientationUnknown]);
-    XCTAssertTrue([self.controller shouldAutorotateToInterfaceOrientation:
-                   UIInterfaceOrientationPortrait]);
-    XCTAssertTrue([self.controller shouldAutorotateToInterfaceOrientation:
-                   UIInterfaceOrientationPortraitUpsideDown]);
-    XCTAssertTrue([self.controller shouldAutorotateToInterfaceOrientation:
-                   UIInterfaceOrientationLandscapeLeft]);
-    XCTAssertTrue([self.controller shouldAutorotateToInterfaceOrientation:
-                   UIInterfaceOrientationLandscapeRight]);
+    NSUInteger suported = [self.controller supportedInterfaceOrientations];
+    XCTAssertTrue(suported == UIInterfaceOrientationMaskAll);
 }
 
 - (void)testSaveDateEdit
